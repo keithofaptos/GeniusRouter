@@ -33,6 +33,8 @@ Built by intelligently combining the best-of-class components from multiple stat
 
 docker compose up -d --build
 
+docker compose up -d --build
+
 3:Test it
 
 curl -X POST http://localhost:8000/v1/chat/completions \
