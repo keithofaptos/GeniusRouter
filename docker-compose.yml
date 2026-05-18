@@ -1,0 +1,18 @@
+services:
+  redis:
+    image: redis/redis-stack:latest
+    ports: ["6379:6379"]
+  ollama:
+    image: ollama/ollama:latest
+    ports: ["11434:11434"]
+    volumes:
+      - ollama:/root/.ollama
+  app:
+    build: .
+    ports: ["8000:8000"]
+    depends_on: [redis, ollama]
+    environment:
+      - OLLAMA_BASE_URL=http://ollama:11434
+      - REDIS_URL=redis://redis:6379/0
+volumes:
+  ollama:
