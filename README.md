@@ -16,6 +16,6 @@ Quickstart
 
 -
 If you have a desire to assist/contribute pls don't hesitate. Open a issue. Ideally I'll have help with a script to feed into Vast.ai
-to really get sone gpu's behind getting this built from many repo's imtegrated from best-of-class SOTA parts. Then run for breaks and bugs. Once this is working perfectly then Im heading for a GeniusRALPH /goal solution build/repo. Once these 2 repos work perfectly then I think a true JARVIS can be created. 
+to really get some gpu's behind getting this. Built from many repo's imtegrated from best-of-class SOTA parts. Then run for breaks and bugs. Once this is working perfectly then I'm heading for a GeniusRALPH /goal solution build/repo. Once these 2 repos work perfectly then I think a true JARVIS can be created. 
 
     • wanna take a ride? •
