@@ -1,2 +1,15 @@
-# GeniusRouter
-Intelligent prompt router that routes your specific request to the appropriate language model. This is an integrated approach of multiple existing repos and AI's reasoning. Grok has started this and I'm going to run this through 4 other advanced models on openrouter's Fusion. To advance 
+# GeniusRouter — SOTA 3-Tier IQ LLM Router (May 2026)
+
+Easiest way to route prompts by intelligence: Low / Medium / High IQ tiers.
+
+Features
+- Edit only `config.yaml` to choose any models
+- Supports 3 separate GPU rigs + OpenRouter + any API
+- Tiny Granite4 classifier + semantic first-pass
+- Full OpenAI-compatible proxy
+- Docker one-click deploy
+
+Quickstart
+1. Edit config.yaml (pick your low/medium/high models)
+2. Add API keys to .env
+3. docker compose up -d
